@@ -47,7 +47,8 @@ $ sudo unzip terraform_0.12.26_linux_amd64.zip -d /usr/local/bin/
 $ export PATH=$PATH:/usr/local/bin
 # Add path permanently for current user.By Exporting path in .bashrc file at end of file.
 $ vi .bashrc
-   export PATH="$PATH:/usr/local/bin"
+   #export PATH="$PATH:/usr/local/bin"
+   export PATH=$PATH:/usr/local/bin
 # Source .bashrc to reflect for current session
 $ source ~/.bashrc  
 # run the scripts https://github.com/mylandmarktechs/eks-terraform-setup/blob/main/terraform-install.sh
